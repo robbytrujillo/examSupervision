@@ -1,0 +1,17 @@
+.main-content {
+  background: #f8fafc;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.sidebar {
+  background: linear-gradient(180deg, #1e3a8a, #2563eb);
+}
+
+.card {
+  border-radius: 18px;
+}
+
+.table {
+  background: white;
+}
