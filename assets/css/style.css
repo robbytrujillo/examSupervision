@@ -1,0 +1,31 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+  border-radius: 30px;
+}
+
+iframe {
+  min-height: 100vh;
+}
+
+.table {
+  background: white;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  h2,
+  h3,
+  h4 {
+    font-size: 1.3rem;
+  }
+}
