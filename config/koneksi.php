@@ -4,7 +4,7 @@ $host = "localhost";
 $user = "root";
 $pass = "";
 $db   = "db_examsupervision";
-$port = 3308;
+$port = 3306;
 
 $conn = mysqli_connect($host, $user, $pass, $db, $port);
 

@@ -234,6 +234,13 @@ if (!$violations) {
                         </a>
                     </li>
 
+                    <li class="nav-item mb-2">
+                        <a href="monitoring.php" class="nav-link">
+                            <i class="fas fa-desktop mr-2"></i>
+                            Monitoring Real Time
+                        </a>
+                    </li>
+
                     <li class="nav-item mt-4">
                         <a href="../logout.php" class="btn btn-danger btn-block logout-btn">
                             Logout

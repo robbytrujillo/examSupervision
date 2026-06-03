@@ -8,6 +8,16 @@ if($_SESSION['role'] != 'admin'){
     exit;
 }
 
+$id=(int)$_GET['id'];
+
+mysqli_query($conn,"
+UPDATE active_sessions
+SET status='blocked'
+WHERE user_id='$id'
+");
+
+header("Location: monitoring.php");
+
 $session_id = intval($_GET['session_id']);
 
 $get = mysqli_query($conn, "
